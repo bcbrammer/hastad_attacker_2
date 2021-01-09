@@ -20,16 +20,16 @@ from gmpy2 import root
 # but I can't make this program do that
 EXPONENT = 3
 
-CIPHERTEXT_1 = "ciphertext.1"
-CIPHERTEXT_2 = "ciphertext.2"
-CIPHERTEXT_3 = "ciphertext.3"
+CIPHERTEXT_1 = "ciphertext1.txt"
+CIPHERTEXT_2 = "ciphertext2.txt"
+CIPHERTEXT_3 = "ciphertext3.txt"
 
-MODULUS_1 = "modulus.1"
-MODULUS_2 = "modulus.2"
-MODULUS_3 = "modulus.3"
+MODULUS_1 = "modulus1.txt"
+MODULUS_2 = "modulus2.txt"
+MODULUS_3 = "modulus3.txt"
 
 # output file (not used currently)
-FIN = "output.1"
+FIN = "output.txt"
 
 
 def chinese_remainder_theorem(items):
